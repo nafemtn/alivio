@@ -1,0 +1,145 @@
+html { box-sizing: border-box;
+}
+*,
+*:before,
+*:after { box-sizing: inherit;
+}
+.logo {
+    width: 79.57px;
+    height: 23.04px;
+    margin: 27px 1565.46px 31.64px 274.97px;
+    position: absolute;
+}
+
+
+
+.hder1 {
+    width: 96px;
+    height: 24px;
+    margin: 30px 1297px 31px 527px;
+    position: absolute;
+}
+.hder2 {
+    width: 82px;
+    height: 24px;
+    margin: 30px 1143px 31px 695px;
+    position: absolute;
+}
+.hder3 {
+    width: 103px;
+    height: 24px; 
+    margin: 30px 969px 31px 848px;
+    position: absolute;
+}
+.hder4 {
+    width: 61px;
+    height: 24px;
+    margin: 30px 836px 31px 1023px;
+    position: absolute;
+}
+.sin {
+    width: 59px;
+    height: 24px;
+    margin: 30px 494px 31px 1367px;
+    position: absolute;
+}
+.bt1 {
+    width: 183px;
+    height: 51px;
+    position: absolute;
+    padding: 13px 50px 13px 50px;
+    margin: 17px 276px 17px 1461px;
+}
+
+button {
+    color: white;
+    padding: 13px 50px 13px 50px;
+    background-color: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+}
+
+.imgbg {
+    width: 100%;
+    background-image: url(projet/image0.png) no-repeat;
+    background-size: cover;
+    padding: 150px;
+    padding-top: 300px;
+    margin-right: -100px;
+}
+
+.beaware {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: #01996D;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 74px;
+    position: absolute;
+}
+
+.psec1 {
+    width: 420px;
+    height: 123px;
+    left: 275px;
+    top: 439px;
+    margin: 400px 1225px 0px 160px;
+    padding-top: 0px ;
+    font-family: 'Lato';
+    font-size: normal;
+    font-size: 20px;
+    line-height: 31,4px; 
+    position: absolute;
+    color: rgb(484848);
+}
+.bt2 {
+    width: 227px;
+    height: 65px;
+    position: absolute;
+    margin: 350px 1418px 427px 160px;
+    padding: 20px, 50px;
+    left: 275px;
+    top: 580px;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.block1 {
+    left: 275px;
+}
+h1 {
+    width: 440px;
+    height: 148px;
+    margin: 373px 1205px 0px 275px;
+}
+.hiw {
+    position: absolute;
+    color:#424242;
+    left: 275px;
+    top: 1150px;        
+}
+footer {
+    background-color: #245852;
+    width: 1920px;
+    height: 654px ;
+    color:white;
+}
+.foot {
+    padding-left: 275px;
+    padding-top: 60px;
+}
+.foot0 {
+
+}
+
+.foot1 {
+    padding: 210px 1524px 414px 275px;
+    width: 121px;
+    height: 30px;
+}
+.foot2 {
+    padding: 300px 1542px 324px 275px;
+    width: 103px;
+    height: 30px;
+}
