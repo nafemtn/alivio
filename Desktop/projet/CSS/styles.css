@@ -88,6 +88,10 @@ button {
     height: 123px;
     margin-bottom: 18px;
     margin-left: 275px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
 }
 .bt2 {
     width: 227px;
@@ -96,12 +100,116 @@ button {
 
 }
               /* SECTION 2 */ 
-    /* Les DIV */
-
-
+    /* Bloc 1 */
+.sec2p1 {
+    margin-left: 275px;
+    width: 141px;
+    height: 38px;
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: Semibold;
+}
+.sec2title1 {
+    width: 584px;
+    margin-left: 275px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #01996D;
+    margin-top: -15px;
+    position:absolute;
+}
+.sec2p2 {
+    width: 671px;
+    height: 269px;
+    margin-left: 995px;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+    
+    /* DIV */
+#d1 {
+    width: 390px;
+    height: 937px;
+    display: inline-block;
+}
+#d2 {
+    width: 25%;
+    float: right;
+    height: 854px;
+} 
+#d3 {
+    width: 75%;
+    float: left;
+    height: 856px;
+}
+    
     /* Numéros */ 
 
+.n1 {
+    width: 176px;
+   height: 225px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgba(1, 153, 109, 0.2);
+   font-size: 150px;
+   padding-top: 52px;
+   position: absolute;
+}
+.n2 {
+    width: 176px;
+   height: 225px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgba(1, 153, 109, 0.2);
+   font-size: 150px;
+}
+.n3 {
+    width: 176px;
+   height: 225px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgba(1, 153, 109, 0.2);
+   font-size: 150px;
+ }
 
+    /* <p> */
+.p1 {
+    width: 382px;
+    height: 150px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.p2 {
+    width: 392px;
+    height: 90px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.p3 {
+    width: 441px;
+    height: 90px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+}
+    /* Titres */
+.title1 {
+    width: 181px;
+    z-index: 1;
+    padding-left: 363px;
+    padding-top: 30%;
+}
              /* SECTION 3 */ 
 .section3 {
     background: #245852;
@@ -128,6 +236,10 @@ button {
     font-weight: 600px;
     font-size: 25px; 
     margin: 501px 1163px 382px 207px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
 }
 .img4 {
     width: 895.84px;
@@ -138,6 +250,13 @@ button {
 }
 
             /* SECTION 4*/ 
+
+.img5 {
+    width: 638.69px;
+    height: 573.26px;
+    left: 335.68px;
+    top: 3629px;
+}
 .bt3 {
     width: 240px;
     height: 65px;
@@ -148,6 +267,67 @@ button {
     box-sizing: border-box;
     border-radius: 4px;
 }
+
+.profil {
+    border: solid gray 2px ;
+    width: 296.14px;
+    height: 293.9px;
+    margin: 474.1px 1348.86px 822px 275px ;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sect4p2 {
+    border: 0.745 solid #0000;
+    width: 110.49px;
+    height: 0px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#sec4 {
+}
+
+.sec4p1 {
+    width: 136px;
+    height: 39px;
+    margin-left: 1061px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.sec4t1 {
+    margin-left: 1061px;
+    width: 584px;
+    color: #01996D;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+ .s4p2 {
+    width: 530px;
+    margin-top: 20px;
+    margin-left: 1061px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bt4 {
+    margin-left: 1061px; 
+    width: 227px;
+    height: 65px;
+}
+
+
 
             /* FOOTER */ 
 footer {
@@ -168,4 +348,7 @@ footer {
     list-style-type: none;
      margin-left: 275px;
      padding: 0;
+     font-family: 'lato' sans-serif;
+     font-size: 25px;
+     font-style: semibold;
     }
