@@ -61,11 +61,12 @@ button {
 }
              /* SECTION1 */
 
-#section1 {
-    margin-left: 275px;
-    margin: 373px 1205px 427px 275px;
+.section1 {
+    background-image: url(bg.png);
+    width: 1920px;
+    height: 1194px;
+    background-size: cover;
 }
-
 .imgbg {
  background-image: url(bg.png) no-repeat;
  background-size: cover;
@@ -78,15 +79,29 @@ button {
     font-size: 65px;
     width: 440px;
     margin-bottom: 30px;
-
+    margin-left: 275px;
+    padding-top: 373px;
 }
+
 .psec1 {
     width: 420px;
     height: 123px;
     margin-bottom: 18px;
+    margin-left: 275px;
+}
+.bt2 {
+    width: 227px;
+    height: 65px;
+    margin-left: 275px;
+
 }
               /* SECTION 2 */ 
- 
+    /* Les DIV */
+
+
+    /* Numéros */ 
+
+
              /* SECTION 3 */ 
 .section3 {
     background: #245852;
@@ -121,12 +136,6 @@ button {
     top: 229px;
     left: 818px;
 }
-.play {
-    width: 26.95px;
-    height: 33.69px;
-    border-radius: 10px;
-    border:white solid 2px ;
-}
 
             /* SECTION 4*/ 
 .bt3 {
@@ -153,6 +162,7 @@ footer {
     font-weight: 900;
     font-size: 40px;
     margin-left: 275px;
+    padding-top: 95px;
 }
  .listfooter {
     list-style-type: none;
