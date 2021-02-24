@@ -4,6 +4,10 @@ html { box-sizing: border-box;
 *:before,
 *:after { box-sizing: inherit;
 }
+             /* HEADER */ 
+header {
+    padding-bottom: 75px;
+}
 .logo {
     width: 79.57px;
     height: 23.04px;
@@ -55,142 +59,35 @@ button {
     border: 1px solid #01996D;
     border-radius: 4px;
 }
- .imgbg {
-    width: 1920px;
-    height: 1184px;
+             /* SECTION1 */
+
+#section1 {
+    margin-left: 275px;
+    margin: 373px 1205px 427px 275px;
 }
 
+.imgbg {
+ background-image: url(bg.png) no-repeat;
+ background-size: cover;
+ width: 1920px;
+ height: 1184px;
+}
 .beaware {
+    color : #01996D;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: normal;
-    color: #01996D;
-    font-weight: bold;
     font-size: 65px;
-    line-height: 74px;
-    position: absolute;
-}
+    width: 440px;
+    margin-bottom: 30px;
 
+}
 .psec1 {
     width: 420px;
     height: 123px;
-    left: 275px;
-    top: 439px;
-    margin: 400px 1225px 0px 160px;
-    padding-top: 0px ;
-    font-family: 'Lato';
-    font-size: normal;
-    font-size: 20px;
-    line-height: 31,4px; 
-    position: absolute;
-    color: rgb(484848);
+    margin-bottom: 18px;
 }
-.bt2 {
-    width: 227px;
-    height: 65px;
-    position: absolute;
-    margin: 350px 1418px 427px 160px;
-    padding: 20px, 50px;
-    left: 275px;
-    top: 580px;
-    border: 1px solid #01996D;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-
-h1 {
-    width: 440px;
-    height: 148px;
-    margin: 373px 1205px 0px 275px;
-}
-.understand {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 79px;
-    color: #01996D;
-    width: 584px;
-    height: 158px;
-    left: 275px;
-    top: 1185px;
-    position: absolute;
-}
-.hiw {
-    position: absolute;
-    color:#424242;
-    left: 275px;
-    top: 1150px;        
-}
-.psec2 {
-    width: 671px;
-    height: 269px;
-    margin: 136px 254px 3622px 995px;
-    font-family: 'Lato';
-    font-size: normal;
-    font-weight: 500;
-    line-height: 30px; 
-    position: absolute;
-    color: rgb(484848);
-    float: right;
-}
-
-.n1 {
-    width: 157px;
-    height: 225px;
-    position: absolute;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgba(1, 153, 109, 0.2);
-    font-size: 150px;
-}
-.title1 {
-    width: 181px;
-    height: 45px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 495px 1376px 3524px 380px;
-    position: absolute;
-}
-
-.p1 {
-    width: 382px;
-    height: 150px;
-    position: absolute;
-    left: 275px;
-    top: 1630px;
-}
-
-.img1 {
-    width: 390px;
-    height: 492px;
-    position: absolute;
-    left: 275px;
-    top: 1840px;
-}
-
-.n2 {
-    width: 176px;
-    height: 225px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgba(1, 153, 109, 0.2);
-    font-size: 150px;
-    left: 760px;
-    top: 1682px;
-    text-align: center;
-    display: inline-block;
-    float: left;
-    position: absolute;
-}
-.n3 {
-    width: 175px;
-    height: 225px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgba(1, 153, 109, 0.2);
-    font-size: 150px;
-    left: 1214px;
-    display: inline-block;
-    float: left;
-    position: absolute;
-}
-
+              /* SECTION 2 */ 
+ 
+             /* SECTION 3 */ 
 .section3 {
     background: #245852;
     width: 1920px;
@@ -231,6 +128,7 @@ h1 {
     border:white solid 2px ;
 }
 
+            /* SECTION 4*/ 
 .bt3 {
     width: 240px;
     height: 65px;
@@ -242,6 +140,7 @@ h1 {
     border-radius: 4px;
 }
 
+            /* FOOTER */ 
 footer {
     background:#245852;
     color: #FFFFFF;
