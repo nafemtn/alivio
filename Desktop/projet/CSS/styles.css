@@ -1,9 +1,4 @@
-html { box-sizing: border-box;
-}
-*,
-*:before,
-*:after { box-sizing: inherit;
-}
+
 body {
     margin: 0px 0px 0px 0px;
 }
@@ -55,7 +50,6 @@ header {
     padding: 13px 50px 13px 50px;
     margin: 17px 276px 17px 1461px;
 }
-
 button {
     color: white;
     padding: 13px 50px 13px 50px;
@@ -81,7 +75,7 @@ button {
     color : #01996D;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 65px;
-    width: 440px;
+    width: 500px;
     margin-bottom: 30px;
     margin-left: 275px;
     padding-top: 373px;
@@ -105,9 +99,9 @@ button {
               /* SECTION 2 */ 
     /* Bloc 1 */
 .sec2p1 {
-    padding-left: 275px;
+    padding-left: 995px;
+    width: 500px;
     height: 38px;
-    width: auto;
     font-size: 24px;
     margin-bottom: 25px;
     font-family: 'Lato', sans-serif ;
@@ -191,7 +185,6 @@ button {
    color: rgba(1, 153, 109, 0.2);
    font-size: 150px;
  }
-
     /* <p> */
 .p1 {
     width: 382px;
@@ -222,7 +215,7 @@ button {
 
 .title1 {
 }
-             /* SECTION 3 */ 
+              /* SECTION 3 */ 
 .section3 {
     background: #245852;
     width: 1920px;
@@ -261,7 +254,6 @@ button {
     top: 229px;
     left: 818px;
 }
-
 .bt3 {
     width: 240px;
     height: 65px;
@@ -283,6 +275,7 @@ button {
     padding-right: 88px;
     width: 638.46px;
     height: 573.26px;
+    box-sizing: none;
 }
 .blockP {
     margin-top: -4000px;
@@ -314,20 +307,12 @@ button {
     margin-top: 10px;
     display: inline-block;
 }
-
-                /*SECTION 4.1*/
-.profil {
-    border: solid gray 2px ;
-    width: 296.14px;
-    height: 293.9px;
-    margin: 474.1px 1348.86px 822px 275px ;
-    font-family: 'Lato', sans-serif ;
-    line-height: 35px;
-    font-size: 20px;
-    font-weight: 400;
-}
-
- .s4p2 {
+.bt4 {  
+    margin-left: 1061px; 
+    width: 227px;
+    height: 65px;
+} 
+.s4p2 {
     width: 530px;
     margin-top: 20px;
     margin-left: 1061px;
@@ -337,12 +322,28 @@ button {
     font-size: 20px;
     font-weight: 400;
 }
-
-.bt4 {
-    margin-left: 1061px; 
-    width: 227px;
-    height: 65px;
+                /*SECTION 4.1*/
+.profil {
+    border: solid gray 2px ;
+    width: 400px;
+    height: 400px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px; 
+    margin-left: 235px;
+    display: inline-block;
+    margin-top: -265px ;
+    background-color: white;
 }
+
+.imgprofil {
+    border-radius: 50%;
+}
+
+  
 
 
 
@@ -353,6 +354,8 @@ footer {
     line-height: 60px;
     width: 1920px;
     height: 654px;
+    margin-top: 168px;
+    
     }
 .titlef {
     font-style: normal;
