@@ -1,6 +1,6 @@
-
 body {
     margin: 0px 0px 0px 0px;
+    width:  100%;
 }
              /* HEADER */ 
 header {
@@ -143,6 +143,8 @@ button {
     top: 1395px;
     left: 275x;
     margin: auto 95px auto 270px;
+    margin-right:  95px;
+    margin-left: 270px;
 }
 .d2 {
     top: 1682px;
@@ -150,7 +152,8 @@ button {
     width: 20%;
     height: 854px;
     display: inline-block;
-    margin: auto 95px auto 95px;
+    margin-right: 95px;
+    margin-left: 95px;
 } 
 .d3 {
     width:20%;
@@ -158,25 +161,24 @@ button {
     display: inline-block;
     margin-left:  1400px;
     margin-top: -1600px;
-
 }
     
     /* Numéros */ 
 
 .n1 {
     width: 176px;
-   height: 225px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   color: rgba(1, 153, 109, 0.2);
-   font-size: 150px;
-   padding-top: 52px;
-}
-.n2 {
+    height: 225px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(1, 153, 109, 0.2);
+    font-size: 150px;
+    padding-top: 52px;
+    }
+    .n2 {
     width: 176px;
-   height: 225px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   color: rgba(1, 153, 109, 0.2);
-   font-size: 150px;
+    height: 225px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(1, 153, 109, 0.2);
+    font-size: 150px;
 }
 .n3 {
     width: 176px;
@@ -214,6 +216,7 @@ button {
     /* Titres */
 
 .title1 {
+    margin: 
 }
               /* SECTION 3 */ 
 .section3 {
@@ -224,7 +227,7 @@ button {
     top: 3500px;
     color: white;
 }
- .heard {
+.heard {
      width: 580px;
      height: 158px;
      position: absolute;
@@ -271,7 +274,7 @@ button {
 }
 .img5 {
     margin-left: 200px;
-    margin-top: 900px;
+    margin-top: 910px;
     padding-right: 88px;
     width: 638.46px;
     height: 573.26px;
@@ -323,30 +326,40 @@ button {
     font-weight: 400;
 }
                 /*SECTION 4.1*/
-.profil {
-    border: solid gray 2px ;
+.profil {;
+    box-shadow: 1px 1px 12px #aaa;
     width: 400px;
-    height: 400px;
+    height: 450px;
     font-family: 'Lato', sans-serif ;
     line-height: 35px;
     font-size: 20px;
     font-weight: 400;
-    text-align: center;
     border-radius: 5px; 
     margin-left: 235px;
     display: inline-block;
     margin-top: -265px ;
     background-color: white;
+    text-align: center;
 }
-
+.ligne {
+    width: 110.49px;
+    text-align: center;
+    margin-bottom: 30px;
+}
 .imgprofil {
     border-radius: 50%;
 }
-
-  
-
-
-
+.sec4list {
+    text-align: left;
+    font-family: 'lato', sans-serif;
+    font-size: 10.62px;
+    line height: 16.67px;
+    font-weight: 400;
+}
+.sec4p3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    size: 15.93px;
+}
             /* FOOTER */ 
 footer {
     background:#245852;
