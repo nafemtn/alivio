@@ -4,9 +4,13 @@ html { box-sizing: border-box;
 *:before,
 *:after { box-sizing: inherit;
 }
+body {
+    margin: 0px 0px 0px 0px;
+}
              /* HEADER */ 
 header {
     padding-bottom: 75px;
+    height: 10%;
 }
 .logo {
     width: 79.57px;
@@ -70,7 +74,7 @@ button {
 .imgbg {
  background-image: url(bg.png) no-repeat;
  background-size: cover;
- width: 1920px;
+ width: 1024px;
  height: 1184px;
 }
 .beaware {
@@ -82,7 +86,6 @@ button {
     margin-left: 275px;
     padding-top: 373px;
 }
-
 .psec1 {
     width: 420px;
     height: 123px;
@@ -102,9 +105,9 @@ button {
               /* SECTION 2 */ 
     /* Bloc 1 */
 .sec2p1 {
-    margin-left: 275px;
-    width: 141px;
+    padding-left: 275px;
     height: 38px;
+    width: auto;
     font-size: 24px;
     margin-bottom: 25px;
     font-family: 'Lato', sans-serif ;
@@ -135,20 +138,33 @@ button {
 }
     
     /* DIV */
-#d1 {
-    width: 390px;
+#DIVsect2 {
+    display: inline-block;
+
+}
+.d1 {
+    width: 20%;
     height: 937px;
     display: inline-block;
+    top: 1395px;
+    left: 275x;
+    margin: auto 95px auto 270px;
 }
-#d2 {
-    width: 25%;
-    float: right;
+.d2 {
+    top: 1682px;
+    left: 760px;
+    width: 20%;
     height: 854px;
+    display: inline-block;
+    margin: auto 95px auto 95px;
 } 
-#d3 {
-    width: 75%;
-    float: left;
+.d3 {
+    width:20%;
     height: 856px;
+    display: inline-block;
+    margin-left:  1400px;
+    margin-top: -1600px;
+
 }
     
     /* Numéros */ 
@@ -160,7 +176,6 @@ button {
    color: rgba(1, 153, 109, 0.2);
    font-size: 150px;
    padding-top: 52px;
-   position: absolute;
 }
 .n2 {
     width: 176px;
@@ -204,11 +219,8 @@ button {
     font-weight: 400;
 }
     /* Titres */
+
 .title1 {
-    width: 181px;
-    z-index: 1;
-    padding-left: 363px;
-    padding-top: 30%;
 }
              /* SECTION 3 */ 
 .section3 {
@@ -216,6 +228,7 @@ button {
     width: 1920px;
     height: 922px;
     position: absolute;
+    top: 3500px;
     color: white;
 }
  .heard {
@@ -249,14 +262,6 @@ button {
     left: 818px;
 }
 
-            /* SECTION 4*/ 
-
-.img5 {
-    width: 638.69px;
-    height: 573.26px;
-    left: 335.68px;
-    top: 3629px;
-}
 .bt3 {
     width: 240px;
     height: 65px;
@@ -267,31 +272,29 @@ button {
     box-sizing: border-box;
     border-radius: 4px;
 }
+                /* SECTION 4*/ 
 
-.profil {
-    border: solid gray 2px ;
-    width: 296.14px;
-    height: 293.9px;
-    margin: 474.1px 1348.86px 822px 275px ;
-    font-family: 'Lato', sans-serif ;
-    line-height: 35px;
-    font-size: 20px;
-    font-weight: 400;
+.img5, .blockP {
+    display: inline-block;
 }
-
+.img5 {
+    margin-left: 200px;
+    margin-top: 900px;
+    padding-right: 88px;
+    width: 638.46px;
+    height: 573.26px;
+}
+.blockP {
+    margin-top: -4000px;
+}
 .sect4p2 {
     border: 0.745 solid #0000;
     width: 110.49px;
-    height: 0px;
     font-family: 'Lato', sans-serif ;
     line-height: 35px;
     font-size: 20px;
     font-weight: 400;
 }
-
-#sec4 {
-}
-
 .sec4p1 {
     width: 136px;
     height: 39px;
@@ -301,6 +304,7 @@ button {
     line-height: 35px;
     font-size: 20px;
     font-weight: 400;
+    display: inline-block;
 }
 .sec4t1 {
     margin-left: 1061px;
@@ -308,6 +312,19 @@ button {
     color: #01996D;
     font-size: 50px;
     margin-top: 10px;
+    display: inline-block;
+}
+
+                /*SECTION 4.1*/
+.profil {
+    border: solid gray 2px ;
+    width: 296.14px;
+    height: 293.9px;
+    margin: 474.1px 1348.86px 822px 275px ;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
  .s4p2 {
