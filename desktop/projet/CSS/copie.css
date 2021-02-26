@@ -1,5 +1,6 @@
 body {
-    width: 1960px;
+    margin: 0px 0px 0px 0px;
+    width:  100%;
 }
              /* HEADER */ 
 header {
@@ -12,21 +13,42 @@ header {
     margin: 27px 1565.46px 31.64px 274.97px;
     position: absolute;
 }
-nav {
-    padding-top: 30px; 
-    padding-left: 40%;
+.hder1 {
+    width: 96px;
+    height: 24px;
+    margin: 30px 1297px 31px 527px;
+    position: absolute;
+}
+.hder2 {
+    width: 82px;
+    height: 24px;
+    margin: 30px 1143px 31px 695px;
+    position: absolute;
+}
+.hder3 {
+    width: 103px;
+    height: 24px; 
+    margin: 30px 969px 31px 848px;
+    position: absolute;
+}
+.hder4 {
+    width: 61px;
+    height: 24px;
+    margin: 30px 836px 31px 1023px;
+    position: absolute;
 }
 .sin {
     width: 59px;
-    padding-left: 70%;
-    padding-top: 5px; 
+    height: 24px;
+    margin: 30px 494px 31px 1367px;
+    position: absolute;
 }
 .bt1 {
     width: 183px;
     height: 51px;
-    margin-left: 80%;
-    position: relative;
-    margin-top: 
+    position: absolute;
+    padding: 13px 50px 13px 50px;
+    margin: 17px 276px 17px 1461px;
 }
 button {
     color: white;
@@ -46,7 +68,7 @@ button {
 .imgbg {
  background-image: url(bg.png) no-repeat;
  background-size: cover;
- width: 100%;
+ width: 1024px;
  height: 1184px;
 }
 .beaware {
@@ -110,51 +132,91 @@ button {
 }
     
     /* DIV */
-
-.col {
-    float: left;
-}
-.d1, .d2, .d3{
+#DIVsect2 {
     display: inline-block;
-    margin-left: 5%;
-    padding-left: 5%;
-}
 
+}
+.d1 {
+    width: 20%;
+    height: 937px;
+    display: inline-block;
+    top: 1395px;
+    left: 275x;
+    margin: auto 95px auto 270px;
+    margin-right:  95px;
+    margin-left: 270px;
+}
 .d2 {
-    margin-top: 250px;
-}
-
+    top: 1682px;
+    left: 760px;
+    width: 20%;
+    height: 854px;
+    display: inline-block;
+    margin-right: 95px;
+    margin-left: 95px;
+} 
 .d3 {
-    margin-top: 120px;
+    width:20%;
+    height: 856px;
+    display: inline-block;
+    margin-left:  1400px;
+    margin-top: -1600px;
 }
-.titre-number {
-    position: relative;
-}  
-span {
+    
+    /* Numéros */ 
+
+.n1 {
+    width: 176px;
+    height: 225px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(1, 153, 109, 0.2);
+    font-size: 150px;
+    padding-top: 52px;
+    }
+    .n2 {
+    width: 176px;
+    height: 225px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgba(1, 153, 109, 0.2);
     font-size: 150px;
 }
-.title1 {
-    position: absolute;
-    margi
-}
-
+.n3 {
+    width: 176px;
+   height: 225px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgba(1, 153, 109, 0.2);
+   font-size: 150px;
+ }
+    /* <p> */
 .p1 {
     width: 382px;
-    height: 90px;
+    height: 150px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+
 }
 .p2 {
     width: 392px;
     height: 90px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
 }
 .p3 {
-    width: 390px;
+    width: 441px;
     height: 90px;
+    font-family: 'Lato', sans-serif ;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 400;
 }
+    /* Titres */
 
-.img3 {
-    border-radius: 12px;
+.title1 {
+    margin: 
 }
               /* SECTION 3 */ 
 .section3 {
@@ -212,7 +274,7 @@ span {
 }
 .img5 {
     margin-left: 200px;
-    margin-top: 1000px;
+    margin-top: 910px;
     padding-right: 88px;
     width: 638.46px;
     height: 573.26px;
@@ -276,8 +338,8 @@ span {
     margin-left: 235px;
     display: inline-block;
     margin-top: -265px ;
-    background-color : white;
-    text-align : center;
+    background-color: white;
+    text-align: center;
 }
 .ligne {
     width: 110.49px;
@@ -306,8 +368,8 @@ footer {
     width: 1920px;
     height: 654px;
     margin-top: 168px;
- }
-
+    
+    }
 .titlef {
     font-style: normal;
     font-weight: 900;
